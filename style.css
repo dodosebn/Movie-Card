@@ -1,23 +1,18 @@
 body{
     background-color: black;
 }
-
 .search-cont, .search{
    display: flex;
    justify-content: center;
    align-items: center;
    height: 100px;
     }
-
 #search-input{
 height: 70px;
 width: 410px;
 outline: none;
-/* border: 5px solid; */
 border-radius: 30px;
 padding: 0 20px;
-/* background-color: blueviolet; */
-/* color: white; */
 font-size: 20px;
 }
 #search-input::placeholder{
@@ -32,7 +27,6 @@ width: 150px;
 border-radius: 30px;
 font-size: 20px;
 }
-
 .container{
 display: flex;
 justify-content: center;
@@ -49,122 +43,93 @@ justify-content: center;
 align-items: center;
 margin-top: 30px;
 }
-
 .about-movie-cont, .about-movie{
     margin-left: 2px;
 }
-
-   /* Styles for larger screens */
    .image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 20px;
+    width: 500px;
+    height: 400px;
   }
-  
   .movie-year {
     font-size: 20px;
   }
-  
   .movie-name {
     font-size: 24px;
     font-weight: bold;
   }
-  
   .movie-genre {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  
   .movie-actors {
     font-size: 16px;
     color: #888;
   }
-  
   .movie-about {
     font-size: 16px;
     margin-bottom: 10px;
   }
-  
   .movie-type {
     font-size: 16px;
     margin-bottom: 10px;
-  }
-  
+  } 
   .movie-writer {
     font-size: 16px;
     margin-bottom: 10px;
   }
-  
   .movie-rating {
     font-size: 20px;
     font-weight: bold;
   }
-  
   .movie-imdbVotes {
     font-size: 16px;
     color: #888;
   }
-
 @media (max-width: 600px) {
     body {
         background-color: black;
       font-size: 16px;
     }
-    
     .search-cont,
     .search {
-    
       height: 80px;
     }
-    
     #search-input {
         height: 30px;
         width: 150px;
         font-size: 10;
     }
-    
     #search-button {
         height: 30px;
         width: 70px;
         font-size: 8;
     }
-    
     .container {
       padding: 10px;
-    }
-    
+    } 
     .page-container{
         background-color: #fff;
-        height: 700px;
+        height: 500px;
         width: 100%;
     }
-    
     .image-cont,
     .about-movie-cont {
-      /* Adjust the margin or spacing between elements on smaller screens */
       margin-top: 20px;
     }
-
     .image {
-      width: 80px;
-      height: 80px;
-      margin-right: 10px;
+      width: 200px;
+      height: 200px;
     }
-    
     .movie-year {
       font-size: 16px;
-    }
-    
+    } 
     .movie-name {
       font-size: 20px;
     }
-    
     .movie-genre {
       font-size: 14px;
       margin-bottom: 5px;
     }
-    
     .movie-actors,
     .movie-about,
     .movie-type,
@@ -173,7 +138,6 @@ margin-top: 30px;
       font-size: 12px;
       margin-bottom: 5px;
     }
-    
     .movie-rating {
       font-size: 16px;
     }
